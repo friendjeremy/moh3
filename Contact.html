@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">-->
+
+    <title>Melody Of Hope</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="dist/css/project.css" rel="stylesheet">
+    <link href="dist/css/animate.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+           <div class="titlebar">
+            <a href="Home.html"><img src="MelodyOfHopeLogo.png" style="width=100px"></img></a>
+             <button type="button" class="HelpButton">Want to Help?</button></li>
+          </div>
+          <ul class="nav navbar-nav">
+            
+            <li><a href="Index.html">Home</a></li>
+            <a>|</a>
+            <li><a href="Mission.html">Mission</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li class="active"><a href="Contact.html">Contact</a></li>
+            <li><button type="button">Donate</button></li>
+          </ul>
+        </div>
+    </div>
+    
+    <div class="mainpage">
+    <h1>Contact Us</h1>
+    <p class="animated bounce">Like us on facebook: <a href="#">Facebook</a></p>
+    <p>Follow us on Twitter: <a href="https://twitter.com/melodyofhopes"><i class="fa fa-twitter-square"></i>Twitter</a></p>
+    <p>Visit our Instagram Page: <a href="http://instagram.com/melodyofhopeorg">Instagram</a></p>
+    <p>Email</p>
+    <p>Phone Number</a></p>
+    <p>Contact us directly: <button class="button" data-toggle="modal" data-target="#ContactModal">Contact Form</button>
+
+
+
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form name="contactform" method="post" action="html_form_send.php">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+            <p>We are happy to hear from you. Ask us a question or leave your feedback by filling out the form below.</p>
+          </div>
+          <div class="modal-body">
+              <label for="first_name">First Name *</label>
+              <input  type="text" class="rounded" name="first_name" maxlength="50" size="30">
+
+              <label for="last_name">Last Name *</label>
+              <input  type="text" class="rounded"  name="last_name" maxlength="50" size="30">
+              
+              <label for="email">Email Address *</label>
+              <input  type="text" class="rounded"  name="email" maxlength="80" size="30">
+              
+              <label for="telephone">Telephone Number</label>
+              <input  type="text" class="rounded"  name="telephone" maxlength="30" size="30">
+              
+              <label for="comments">Comments *</label>
+              <textarea  name="comments" class="rounded" maxlength="1000" cols="55" rows="10"></textarea>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <input type="submit" class="button" value="Submit" name="submit">
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-537a7c312b12dd20"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent', 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'charlie.welch1'},
+        {'service': 'twitter', 'id': 'melodyofhopes'},
+        {'service': 'instagram', 'id': 'melodyofhopeorg'}
+      ]
+    }   
+  });
+</script>
+<!-- AddThis Smart Layers END -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </div>
+  </body>
+</html>

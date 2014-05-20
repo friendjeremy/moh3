@@ -1,0 +1,193 @@
+
+
+
+.navbar{
+	background-color: #0385A9;
+	border-color: #0385A9;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #FFFFFF;
+	background-color: #04285C;
+	text-align: center;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #FFFFFF;
+}
+
+.mainpage {
+	padding-top: 210px;
+}
+
+.carousel {
+	background: transparent;
+	margin:0 auto;
+	width: 70%;
+	height: 600px;
+}
+
+.nav>li {
+	display: inline-block;
+	float: center;
+}
+
+ul.nav.navbar-nav {
+	width: 100%; 
+	display: inline-block; 
+	text-align:center; 
+	margin:0 auto; 
+	position:relative; 
+	list-style-type: none; 
+}
+
+.collapse.navbar-collapse { 
+	float:none; 
+	margin: auto; 
+	text-align: center; 
+ 
+}
+
+.blue-back {
+	background: #0385A9;
+	margin: 15px -5px -5px -5px;
+	padding: 5px;
+	height: 200px;
+	box-shadow: 0  0 5px black;
+	border-radius: 15px;
+}
+
+.form-back {
+	background: #0385A9;
+	margin: 0px 100px 100px 100px;
+	padding: 5px;
+	height: 500px;
+	box-shadow: 0  0 5px black;
+	border-radius: 15px;
+}
+
+input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+textarea.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+
+.row {
+width: 100%; 
+	display: inline-block; 
+	text-align:center; 
+	margin:0 auto; 
+	position:relative; 
+	list-style-type: none; 
+	padding: 0;
+}
+
+body {
+	background:#85CBC1;
+	font-family: Georgia, Tahoma;
+
+}
+
+
+
+label { 
+	margin-top:10px;
+	display: block; 
+	width: 150px; 
+}
+
+table {
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+  }
+
+td {
+	font-size: large;
+	width: 100px;
+}
+tr {
+	height: 50px;
+}
+
+button, .button { 
+    background-color: #85CBC1; 
+    border-color: #85CBC1; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px; 
+    color: white; 
+}
+
+.titlebar {
+	height: 150px;
+	background-color: #A8AFA0;
+	text-align: center; 
+}
+
+.HelpButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #085cbc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #085cbc;
+	box-shadow:inset 0px 1px 0px 0px #085cbc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #085cbc), color-stop(1, #00185a) );
+	background:-moz-linear-gradient( center top, #085cbc 5%, #00185a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#085cbc', endColorstr='#00185a');
+	background-color:#085cbc;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #00185a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:22px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #999799;
+}
+.HelpButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00185a), color-stop(1, #085cbc) );
+	background:-moz-linear-gradient( center top, #00185a 5%, #085cbc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00185a', endColorstr='#085cbc');
+	background-color:#00185a;
+}.HelpButton:active {
+	position:relative;
+	top:1px;
+}
+
