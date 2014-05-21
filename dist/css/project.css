@@ -23,8 +23,21 @@ ul.nav.navbar-nav {
 	list-style-type: none; 
 }
 
-.mainpage {
-	padding-top: 220px;
+.collapse.navbar-collapse { 
+	float:none; 
+	margin: auto; 
+	text-align: center; 
+ 
+}
+
+.nav>li {
+	display: inline-block;
+	float: center;
+}
+.titlebar {
+	height: 150px;
+	width: 100%;
+	text-align: center; 
 }
 
 .carousel {
