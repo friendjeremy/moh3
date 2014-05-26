@@ -21,7 +21,7 @@
   <body>
 <div class="titlebar">
     <a href="Index.html"><img src="Images/MelodyOfHopeLogo.png" style="width=100px"></img></a>
-    <button type="button" class="HelpButton">Want to Help?</button></li>
+    <button type="button" class="HelpButton" onclick= "window.location.href='Donate.html'">Want to Help?</button></li>
   </div>
          <div class="navbar navbar-inverse" role="navigation">
       <div class="container">
@@ -35,12 +35,11 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-          <li><a href="Index.html">Home</a></li>
-          <a>|</a>
+          <li><a href="Index.html">Home</a></li>    
           <li><a href="Mission.html">Mission</a></li>
           <li><a href="Events.html">Events</a></li>
           <li><a href="Contact.html">Contact</a></li>
-          <li class="active"><button type="button">Donate</button></li>
+          <li class="active"><button class = "DonateButton" type="button" onclick= "window.location.href='Donate.html'">Donate</button></li>
          </ul>
         </div>
       </div>
@@ -59,7 +58,26 @@
    
 
 
+<footer>
+        <p>&copy; Melody Of Hope</p>
+      </footer>
 
+    <!-- AddThis Smart Layers BEGIN -->
+    <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-537a7c312b12dd20"></script>
+    <script type="text/javascript">
+      addthis.layers({
+      'theme' : 'transparent', 
+      'follow' : {
+        'services' : [
+          {'service': 'facebook', 'id': 'melodyofhope'},
+          {'service': 'twitter', 'id': 'melodyofhopes'},
+          {'service': 'instagram', 'id': 'melodyofhope'}
+        ]
+      }   
+      });
+    </script>
+    <!-- AddThis Smart Layers END -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

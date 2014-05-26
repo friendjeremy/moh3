@@ -22,7 +22,7 @@
   <body>
     <div class="titlebar">
     <a href="Index.html"><img src="Images/MelodyOfHopeLogo.png" style="width=100px"></img></a>
-    <button type="button" class="HelpButton">Want to Help?</button></li>
+    <button type="button" class="HelpButton" onclick= "window.location.href='Donate.html'">Want to Help?</button></li>
   </div>
     <div class="navbar navbar-inverse" role="navigation">
       <div class="container">
@@ -36,12 +36,11 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-          <li><a href="Index.html">Home</a></li>
-          <a>|</a>
+          <li><a href="Index.html">Home</a></li>     
           <li><a href="Mission.html">Mission</a></li>
           <li><a href="Events.html">Events</a></li>
           <li class="active"><a href="Contact.html">Contact</a></li>
-          <li><button type="button">Donate</button></li>
+          <li><button class = "DonateButton" type="button" onclick= "window.location.href='Donate.html'">Donate</button></li>
          </ul>
         </div>
       </div>
@@ -51,12 +50,12 @@
     <div class="mainpage">
     <div class="blue-back">
     <h1>Contact Us</h1>
-    <p>Like us on facebook: <a href="#">Facebook</a></p>
-    <p>Follow us on Twitter: <a href="https://twitter.com/melodyofhopes"><i class="fa fa-twitter-square"></i>Twitter</a></p>
-    <p>Visit our Instagram Page: <a href="http://instagram.com/melodyofhopeorg">Instagram</a></p>
+    <p>Like us on facebook: <a href="https://www.facebook.com/melodyofhope"><font color = "yellow"><u>Facebook</u></font></a></p>
+    <p>Follow us on Twitter: <a href="https://twitter.com/melodyofhopes"><i class="fa fa-twitter-square"></i><font color = "yellow"><u>Twitter</u></font></a></p>
+    <p>Visit our Instagram Page: <a href="http://instagram.com/melodyofhope"><font color = "yellow"><u>Instagram</u></font></a></p>
     <p>Email</p>
-    <p>Phone Number</a></p>
-    <p>Contact us directly: <button class="button" data-toggle="modal" data-target="#ContactModal">Contact Form</button>
+    <p>Phone Number</a></p>  
+	<p>Contact us directly: <a href= "#ContactModal" data-toggle="modal"><font color = "yellow"><b>Contact Form</b></font></a></a>
     </div>
   </div>
 
@@ -86,14 +85,19 @@
               <textarea  name="comments" class="rounded" maxlength="1000" cols="55" rows="10"></textarea>
           </div>
           <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <input type="submit" class="button" value="Submit" name="submit">
+              <button type="button" class="DonateButton" data-dismiss="modal">Close</button>
+              <input type="submit" class="DonateButton" value="Submit" name="submit">
           </div>
           </form>
         </div>
       </div>
     </div>
 </div>
+
+<footer>
+        <p>&copy; Melody Of Hope</p>
+      </footer>
+	  
 <!-- AddThis Smart Layers BEGIN -->
 <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-537a7c312b12dd20"></script>
@@ -102,9 +106,9 @@
     'theme' : 'transparent', 
     'follow' : {
       'services' : [
-        {'service': 'facebook', 'id': 'charlie.welch1'},
+        {'service': 'facebook', 'id': 'melodyofhope'},
         {'service': 'twitter', 'id': 'melodyofhopes'},
-        {'service': 'instagram', 'id': 'melodyofhopeorg'}
+        {'service': 'instagram', 'id': 'melodyofhope'}
       ]
     }   
   });
