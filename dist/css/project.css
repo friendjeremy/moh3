@@ -82,6 +82,30 @@ ul.nav.navbar-nav {
 	border-radius: 15px;
 }
 
+.donateEmail {
+	font-size: x-large;
+	background: #04285C;
+	margin: 20px;
+	padding: 5px;
+	box-shadow: 0  0 5px black;
+	border-radius: 7px;
+	display: table-cell;	
+	width: 40%;
+	border: 20px;
+}
+
+.placeHold_Donate {
+	font-size: x-large;
+	background: transparent;
+	color: transparent;
+	margin: 20px;	
+	border-radius: 7px;
+	display: table-cell;	
+	width: 20%;
+	border: 20px;
+}
+
+
 input.rounded {
 	border: 1px solid #ccc;
 	-moz-border-radius: 10px;

@@ -48,22 +48,54 @@
     </div>
 	<!---HEADER-->
   
+	<!--Tables holding Donates and Email registration-->
     <div class="container">
-    <div class="mainpage">
-      <div class="starter-template">
+    <div class="mainpage" style="width: 100%; display: table;">	
+      
+	  <!--
+	  Left side for donations.
+	  To use PayPal API or link to PayPal site???
+	  How will the selection of donation choice change interaction?
+	  -->
+	  <div class="donateEmail" id="left">
         <h1>Donations</h1>
-        <p class="lead">This will be the page where users can donate money to the cause<br>We will try to utilize payment apis such as paypal, etc.</p>
+		<form action="">
+			<font size = "4">
+			<p>Donate to a cause of your choice!</p>
+			<select style="color:black;">
+				<option value="test">Test</option>
+				<option value="test">Youth</option>
+				<option value="test">Homeless</option>
+			</select>			
+			</font>
+		</form>
       </div>
+	  
+	  <!--Space holder-->
+	  <div class="placeHold_Donate">
+	  </div>
+	  
+	  <!--
+	  Right Side for emails.
+	  NEED: to know where emails should be saved.
+	  -->
+	  <div class = "donateEmail" id="right">
+		<h1>Register for E-mails</h1>
+		<form action="">
+		<font size= "4">
+			<p>Register to receive emails about all of our great events!</p>
+			<input type="text" style="color:black;">
+			<input type="submit" value="Register" style="background:#202020">
+		</font>
+		</form>
+	  </div>
     </div>
-    </div><
+    </div>
 
 
-   
-
-
-<footer>
-        <p>&copy; Melody Of Hope</p>
-      </footer>
+	<footer>
+		<p>&copy; Melody Of Hope</p>
+    </footer>
 
     <!-- AddThis Smart Layers BEGIN -->
     <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
