@@ -127,6 +127,7 @@ body {
 	background-image:url("../../Images/BackgroundImage.jpg");
 	background-size: cover;
 	font-family: Georgia, Tahoma;
+	color: #FFFFFF;;
 }
 
 label { 
@@ -142,7 +143,6 @@ table {
 td {
 	font-size: large;
 	width: 100px;
-	color:#C0C0C0;
 }
 tr {
 	height: 30px;
