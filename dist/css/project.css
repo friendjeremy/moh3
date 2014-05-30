@@ -148,8 +148,9 @@ width: 100%;
 }
 
 body {
-	background-image:url("../../Images/BackgroundImage.jpg");
+	background: url("../../Images/BackgroundImage.jpg") no-repeat center center fixed; 
 	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: Georgia, Tahoma;
 	color: #FFFFFF;;
 }
@@ -190,6 +191,12 @@ button, .button {
     -webkit-border-radius: 4px; 
     border-radius: 4px; 
     color: white; 	
+}
+
+.paypalButton
+{
+	background-image: url("../../Images/paypalicon.png");
+	background-size: cover;
 }
 
 .HelpButton {
