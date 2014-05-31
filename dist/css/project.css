@@ -175,6 +175,7 @@ tr {
 	text-align:left;
 }
 
+/*
 button, .button { 
     background-color: #85CBC1; 
     border-color: #85CBC1; 
@@ -183,6 +184,7 @@ button, .button {
     border-radius: 4px; 
     color: white; 
 }
+*/
 
 .DonateButton 
 {
@@ -255,4 +257,31 @@ button, .button {
 
 .html{
 	height:100%;
+}
+
+.fbIcon
+{
+	background:url("../../Images/fb-icon.png") no-repeat;
+	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.igIcon
+{
+	background:url("../../Images/ig-icon.jpg") no-repeat;
+	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.twitterIcon
+{
+	background:url("../../Images/twitter-icon.png") no-repeat;
+	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: none;
 }
