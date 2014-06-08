@@ -64,22 +64,24 @@ ul.nav.navbar-nav {
 }
 
 .blue-back {
-	background: #04285C;
+	background-image:url("../../Images/panebackground.jpg");
 	margin: 15px 10px -5px -5px;
 	padding: 5px;
 	width: 90%;
 	height: 90%;
 	box-shadow: 0  0 10px black;
 	border-radius: 15px;
+	text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .info-back {
 	font-size: x-large;
-	background: #04285C;
+	background-image:url("../../Images/panebackground.jpg");
 	margin: 20px 15% 0px 15%;
 	padding: 5px;
 	box-shadow: 0  0 5px black;
 	border-radius: 15px;
+	text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .donateEmail {
@@ -153,7 +155,7 @@ body {
 	background-repeat: no-repeat;
 	font-family: Georgia, Tahoma;
 	color: #FFFFFF;
-	height:100%;
+	height: 100%;
 }
 
 label { 
@@ -170,12 +172,12 @@ td {
 	font-size: large;
 	width: 100px;
 }
+
 tr {
 	height: 30px;
 	text-align:left;
 }
 
-/*
 button, .button { 
     background-color: #85CBC1; 
     border-color: #85CBC1; 
@@ -184,7 +186,6 @@ button, .button {
     border-radius: 4px; 
     color: white; 
 }
-*/
 
 .DonateButton 
 {
@@ -202,86 +203,3 @@ button, .button {
 	background-size: cover;
 }
 
-.HelpButton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #085cbc;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #085cbc;
-	box-shadow:inset 0px 1px 0px 0px #085cbc;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #085cbc), color-stop(1, #00185a) );
-	background:-moz-linear-gradient( center top, #085cbc 5%, #00185a 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#085cbc', endColorstr='#00185a');
-	background-color:#085cbc;
-	-webkit-border-top-left-radius:20px;
-	-moz-border-radius-topleft:20px;
-	border-top-left-radius:20px;
-	-webkit-border-top-right-radius:20px;
-	-moz-border-radius-topright:20px;
-	border-top-right-radius:20px;
-	-webkit-border-bottom-right-radius:20px;
-	-moz-border-radius-bottomright:20px;
-	border-bottom-right-radius:20px;
-	-webkit-border-bottom-left-radius:20px;
-	-moz-border-radius-bottomleft:20px;
-	border-bottom-left-radius:20px;
-	text-indent:0;
-	border:1px solid #00185a;
-	display:inline-block;
-	color:#ffffff;
-	font-family:Georgia;
-	font-size:22px;
-	font-weight:bold;
-	font-style:normal;
-	height:65px;
-	line-height:65px;
-	width:200px;
-	text-decoration:none;
-	text-align:center;
-	text-shadow:1px 1px 0px #999799;
-}
-.HelpButton:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00185a), color-stop(1, #085cbc) );
-	background:-moz-linear-gradient( center top, #00185a 5%, #085cbc 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00185a', endColorstr='#085cbc');
-	background-color:#00185a;
-}.HelpButton:active {
-	position:relative;
-	top:1px;
-}
-
-#footer{
-	width:100%;
-	height:20px;
-	position:fixed;
-	bottom:0;
-	left:90%;  
-}
-
-.html{
-	height:100%;
-}
-
-.fbIcon
-{
-	background:url("../../Images/fb-icon.png") no-repeat;
-	cursor:pointer;
-    width: 200px;
-    height: 200px;
-    border: none;
-}
-
-.igIcon
-{
-	background:url("../../Images/ig-icon.jpg") no-repeat;
-	cursor:pointer;
-    width: 200px;
-    height: 200px;
-    border: none;
-}
-
-.twitterIcon
-{
-	background:url("../../Images/twitter-icon.png") no-repeat;
-	cursor:pointer;
-    width: 200px;
-    height: 200px;
-    border: none;
-}
