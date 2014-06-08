@@ -86,7 +86,7 @@ ul.nav.navbar-nav {
 
 .donateEmail {
 	font-size: x-large;
-	background: #04285C;
+	background-image:url("../../Images/panebackground.jpg");
 	margin: 20px;
 	padding: 5px;
 	box-shadow: 0  0 5px black;
