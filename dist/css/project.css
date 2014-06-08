@@ -203,3 +203,61 @@ button, .button {
 	background-size: cover;
 }
 
+.fbIcon
+{
+	background:url("../../Images/fb-icon.png") no-repeat;
+	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.igIcon
+{
+	background:url("../../Images/ig-icon.jpg") no-repeat;
+	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.twitterIcon
+{
+	background:url("../../Images/twitter-icon.png") no-repeat;
+	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+#footer{
+	width:100%;
+	height:20px;
+	position:fixed;
+	bottom:0;
+	left:90%;  
+}
+
+.contactIcons
+{
+	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.formIcon
+{
+	background:url("../../Images/feedback-icon.jpg") no-repeat;
+	cursor:pointer;
+	border:none;
+	width: 247px;
+	height: 82px;
+	
+	float: right;
+    margin-left: 20px;
+    position: relative;
+    bottom: 100px;
+    right: 25px;
+}
+
