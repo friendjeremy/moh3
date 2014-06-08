@@ -207,8 +207,8 @@ button, .button {
 {
 	background:url("../../Images/fb-icon.png") no-repeat;
 	cursor:pointer;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: none;
 }
 
@@ -216,8 +216,8 @@ button, .button {
 {
 	background:url("../../Images/ig-icon.jpg") no-repeat;
 	cursor:pointer;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: none;
 }
 
@@ -225,8 +225,8 @@ button, .button {
 {
 	background:url("../../Images/twitter-icon.png") no-repeat;
 	cursor:pointer;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: none;
 }
 
@@ -241,8 +241,8 @@ button, .button {
 .contactIcons
 {
 	cursor:pointer;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border: none;
 }
 
@@ -251,13 +251,13 @@ button, .button {
 	background:url("../../Images/feedback-icon.jpg") no-repeat;
 	cursor:pointer;
 	border:none;
-	width: 247px;
+	width: 100px;
 	height: 82px;
 	
 	float: right;
     margin-left: 20px;
     position: relative;
     bottom: 100px;
-    right: 25px;
+    right: 200px;
 }
 
