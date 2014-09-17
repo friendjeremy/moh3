@@ -25,13 +25,30 @@
   background-color:#f3f3f3;
 }
 
-.nav>li>a:active {
-  background-color:#ff0000;
-}
-.nav>li>a:active {
-
-  color:#ff0000;
-}
 .active {
   background-color:#ff0000;
+}
+.homebg {
+  width: 100%;
+  background-color:#66FFFF;
+}
+.homebg h1 {
+  text-align:center;
+  font-weight: bold;
+}
+.homebg h2 {
+  text-align:center;
+  padding-top: 5%;
+}
+.hometext {
+  background-color:black;
+  width:100%;
+  margin-top: 5%;
+}
+.hometext p {
+  color: white;
+  font-size:12px;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
 }
