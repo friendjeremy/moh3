@@ -1,0 +1,27 @@
+
+#cssmenu
+ {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  font-family: Gotham, Helvetica, sans-serif;
+}
+
+/*Primary content background, fonts, etc,*/
+.content {
+	margin: auto;
+	padding-top: 45px;
+	height:auto;
+	width:1000px;
+	font-family: Helvetica, sans-serif;
+	text-overflow:ellipsis;
+
+}
+
+.missionpage {
+  background-color:#f3f3f3;
+}
+

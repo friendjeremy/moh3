@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-<div ng-app="">
- 	<p>Name: <input type="text" ng-model="name"></p>
- 	<p ng-bind="name"></p>
-</div>
+	
+<head>
+	<!-- Imported CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<!-- handmade css -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css"></link>	
+	<!-- Bootstrap -->
+	<script src="scripts/bootstrap.min.js"></script>
+	<!-- angular.js-->
+	<script type="text/javascript" src="scripts/angular.min.js"></script>
+	<script type="text/javascript" src="scripts/angular.min.js.map"></script>
+	<script type="text/javascript" src="scripts/angular-route.min.js"></script>		
+	<!-- Angular /scripts and /controllers-->
+	<script type="text/javascript" charset="utf8" src="scripts/app.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/mainctrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/homectrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/missionctrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/eventsctrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/blogctrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/musicctrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/teamctrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/contactctrl.js"></script>
+	<script type="text/javascript" charset="utf8" src="controllers/donatectrl.js"></script>
+</head>
 
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<body ng-app="interviewingAssistant" ng-controller="MainController">
+	
+	<table style="width: 1000px" align="center">
+		<tr>
+			<td>
+				<div id='cssmenu'>
+				<ul class="nav navbar-nav">
+				   <li><a href='#/home'><span>Home</span></a></li>
+				   <li><a href='#/mission'><span>Mission</span></a></li>
+				   <li><a href='#/events'><span>Events</span></a></li>
+				   <li><a href='#/blog'><span>Blog</span></a></li>
+				   <li><a href='#/music'><span>Music</span></a></li>
+				   <li><a href='#/team'><span>Team</span></a></li>
+				   <li><a href='#/contact'><span>Contact</span></a></li>
+				   <li><a href='#/donate'><span>Donate</span></a></li>
+				</ul>
+				</div>
+				<div class="content" ng-view padding-top:65px>
+					
+				</div>
+			
+			</td>
+		</tr>
+		
+	</table>
+
 </body>
+
+
 </html>
