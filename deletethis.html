@@ -1,0 +1,249 @@
+
+<script>
+/*	$(document).ready(function() {
+		
+	    var panels = $('.user-infos');
+	    var panelsButton = $('.dropdown-user');
+	    panels.hide();
+	
+	    //Click dropdown
+	    panelsButton.click(function() {
+	        //get data-for attribute
+	        var dataFor = $(this).attr('data-for');
+	        var idFor = $(dataFor);
+	
+	        //current button
+	        var currentButton = $(this);
+	        idFor.slideToggle(400, function() {
+	            //Completed slidetoggle
+	            if(idFor.is(':visible'))
+	            {
+	                currentButton.html('<i class="glyphicon glyphicon-chevron-up text-muted"></i>');
+	            }
+	            else
+	            {
+	                currentButton.html('<i class="glyphicon glyphicon-chevron-down text-muted"></i>');
+	            }
+	        })
+	    });
+	
+	
+	    $('[data-toggle="tooltip"]').tooltip();
+	
+	    $('button').click(function(e) {
+	        e.preventDefault();
+	        alert("This is a demo.\n :-)");
+	    });
+	});*/
+
+</script>
+
+<div class="container">
+      <div class="row">
+      <div class="col-md-5  toppad  pull-right col-md-offset-3 ">
+
+      </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
+   
+   
+          <div class="panel panel-info">
+            <div class="panel-body">
+            <pr>
+            	{{candidateProfile.first_name + " " + candidateProfile.last_name}}
+            </pr>
+            <br>
+             <a href="#" class="btn btn-primary">Save</a>
+                  <a href="#" class="btn btn-primary">Export</a>
+              <div class="row">
+                
+                <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>
+                      <tr>
+                        <td>{{candidateProfile.position_Applied_For}}</td>
+                        <td>{{"Gender: " + candidateProfile.gender}}</td>
+                      <tr>
+                        <td>{{"School: " + candidateProfile.college}}</td>
+                        <td>{{"Major: " + candidateProfile.major}}</td>
+                      </tr>
+                      <tr>
+                        <td>{{"Grad. Date: " + candidateProfile.graduation_Date}}</td>
+                        <td>{{"GPA: " + candidateProfile.gpa}}</td>
+                      </tr>
+                      <tr>
+                         <td>
+                         	<a href="">Email</a>
+                         	| Phone
+                         </td>
+                        <td>Referrer:  <a href="">QLinkATTUID</a> </td>                       
+                      </tr>
+                   
+                         <tr>
+                             <tr>
+                        <td>
+	                        <div class="dropdown">
+	                        	Status:
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+								    {{candidateProfile.status}}
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Hired</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Declined</a></li>
+								  </ul>
+							</div>            
+
+                        </td>
+                        <td>
+                        <div class="input-group">						    
+						        <input type="checkbox">
+						        Taleo
+					    </div>
+                        </td>
+                      </tr>
+                        <tr>
+                        <td>
+                        	<a href="">Technical: </a>
+                        	<a href="">Behavioral </a>
+                        	Overall: 
+                        </td>
+                      </tr>
+                      <table class="table table-striped">
+							<thead>
+						        <tr>
+						            <th></th>
+						            <th>Experience</th>
+						            <th>Interest</th>
+						        </tr>
+						    </thead>
+						     <tbody>
+					        <tr>
+					            <td>Agile</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					        <tr>
+					            <td>API</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					        <tr>
+					            <td>Cloud</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					        <tr>
+					            <td>Data Analysis</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					        <tr>
+					            <td>HF/UX</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					        <tr>
+					            <td>Network Arch.</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					        <tr>
+					            <td>Network Arch.</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					        <tr>
+					            <td>Network</td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					            <td>
+						            <div class="input-group">						    
+								        <input type="checkbox">
+								    </div>
+							    </td>
+					        </tr>
+					        
+					</table>
+					Comments:
+					<textarea class="form-control" rows="3">
+						General comments on candidate go here.
+					</textarea>
+                    </tbody>
+                  </table>
+                  
+                 
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
