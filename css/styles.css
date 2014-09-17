@@ -25,3 +25,13 @@
   background-color:#f3f3f3;
 }
 
+.nav>li>a:active {
+  background-color:#ff0000;
+}
+.nav>li>a:active {
+
+  color:#ff0000;
+}
+.active {
+  background-color:#ff0000;
+}
