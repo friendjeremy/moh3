@@ -4,6 +4,7 @@ app.controller("EventsController",  function($scope){
         firstName: "Events",
         lastName: "List"
     };
-
 });
+
+
 
