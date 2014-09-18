@@ -1,37 +1,60 @@
 
-#cssmenu
- {
+#cssmenu {
   margin: 0;
-  padding: 0;
-  border: 0;
   list-style: none;
   line-height: 1;
   display: block;
   font-family: Gotham, Helvetica, sans-serif;
 }
 
+.nav {
+  background-color: #BEAA31;
+  width: 100%;
+}
+
+.navbar .navbar-inner ul.nav a:hover {
+    color: #000000 !important; 
+}
+
+body {
+  background-color:#302A14;
+}
 /*Primary content background, fonts, etc,*/
 .content {
 	margin: auto;
-	padding-top: 45px;
+	padding-top: 50px;
 	height:auto;
-	width:1000px;
 	font-family: Helvetica, sans-serif;
 	text-overflow:ellipsis;
-
 }
 
-.missionpage {
-  background-color:#f3f3f3;
-}
-
-.nav>li>a:active {
-  background-color:#ff0000;
-}
-.nav>li>a:active {
-
-  color:#ff0000;
-}
 .active {
-  background-color:#ff0000;
+  background-color:#2D2B14;
+}
+
+.missionbody {
+  height: 500px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #B7E0D8;
+}
+
+.missiontext {
+ background-color:rgba(0,0,0,0.5);
+ filter: alpha(opacity=50); 
+ display: inline-block;
+ width: 75%; 
+ text-align: center; 
+ margin-top: 10%;
+ border-radius: 25px;
+}
+
+.missiontext h1 {
+  font-weight: bolder;
+  color: white;
+}
+.missiontext p {
+    margin: 30px 40px;
+    color: white;
+    opacity: 1;
 }
