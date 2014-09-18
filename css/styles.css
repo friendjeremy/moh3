@@ -39,6 +39,7 @@ body {
   background-color: #B7E0D8;
 }
 
+<<<<<<< HEAD
 .missiontext {
  background-color:rgba(0,0,0,0.5);
  filter: alpha(opacity=50); 
@@ -57,4 +58,32 @@ body {
     margin: 30px 40px;
     color: white;
     opacity: 1;
+=======
+.active {
+  background-color:#ff0000;
+}
+.homebg {
+  width: 100%;
+  background-color:#66FFFF;
+}
+.homebg h1 {
+  text-align:center;
+  font-weight: bold;
+}
+.homebg h2 {
+  text-align:center;
+  padding-top: 5%;
+}
+.hometext {
+  background-color:black;
+  width:100%;
+  margin-top: 5%;
+}
+.hometext p {
+  color: white;
+  font-size:12px;
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+>>>>>>> origin/master
 }
