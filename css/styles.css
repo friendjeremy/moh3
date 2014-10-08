@@ -13,7 +13,11 @@
 }
 
 .navbar .navbar-inner ul.nav a:hover {
-    color: #000000 !important; 
+    color: #000000; 
+}
+
+.nav>li>a:hover {
+  background-color: #2D2B14;
 }
 
 body {
@@ -39,7 +43,6 @@ body {
   background-color: #B7E0D8;
 }
 
-<<<<<<< HEAD
 .missiontext {
  background-color:rgba(0,0,0,0.5);
  filter: alpha(opacity=50); 
@@ -58,10 +61,8 @@ body {
     margin: 30px 40px;
     color: white;
     opacity: 1;
-=======
-.active {
-  background-color:#ff0000;
 }
+
 .homebg {
   width: 100%;
   background-color:#66FFFF;
@@ -85,5 +86,4 @@ body {
   text-align: center;
   padding-left: 30%;
   padding-right: 30%;
->>>>>>> origin/master
 }
