@@ -87,3 +87,31 @@ body {
   padding-left: 30%;
   padding-right: 30%;
 }
+.col-lg-4 {
+  background-color:white;
+  padding: 10px;
+  margin-right: 20px;
+  width: 30%;
+  height: 400px;
+}
+
+.div {
+  column-gap:40px;
+}
+
+.img-square {
+  color: #2D2B14;
+  width: 100%;
+}
+
+.header1 p {
+  color: yellow;
+}
+
+.header2 p {
+  color: red;
+}
+
+.header3 p {
+  color: blue;
+}
