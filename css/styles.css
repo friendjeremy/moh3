@@ -70,33 +70,69 @@ body {
 .homebg h1 {
   text-align:center;
   font-weight: bold;
+  color: white;
+  padding-top: 1%;
 }
 .homebg h2 {
   text-align:center;
   padding-top: 5%;
 }
+.homebg h2>p {
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
 .hometext {
   background-color:black;
+  opacity: 0.7;
   width:100%;
   margin-top: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .hometext p {
   color: white;
-  font-size:12px;
+  font-size:16px;
   text-align: center;
   padding-left: 30%;
   padding-right: 30%;
 }
-.col-lg-4 {
+
+.col-lg-4 h2 {
+  padding: 0px;
+  margin: 0px;
+}
+.col-home-1 {
   background-color:white;
-  padding: 10px;
-  margin-right: 20px;
+  padding: 0px;
+  margin-right: 1%;
+  margin-left: 3%;
   width: 30%;
-  height: 400px;
+  height: 320px;
+}
+.col-home-2 {
+  background-color:white;
+  padding: 0px;
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 30%;
+  height: 320px;
+}
+.col-home-3 {
+  background-color:white;
+  padding: 0px;
+  margin-right: 3%;
+  margin-left: 1%;
+  width: 30%;
+  height: 320px;
 }
 
 .div {
-  column-gap:40px;
+  column-gap:5%;
+}
+
+.row {
+  margin: 0 auto;
+  width: 100%;
 }
 
 .img-square {
@@ -106,12 +142,60 @@ body {
 
 .header1 p {
   color: yellow;
+  padding: 0px;
+  font-family: "Helvetica";
+  font-size: 20px;
+  margin: 2px;
 }
 
 .header2 p {
   color: red;
+  padding: 0px;
+  font-family: "Helvetica";
+  font-size: 20px;
+  margin: 2px;
 }
 
 .header3 p {
   color: blue;
+  padding: 0px;
+  font-family: "Helvetica";
+  font-size: 20px;
+  margin: 2px;
+}
+
+.instagram-gallery {
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bottom-bar-home {
+  height: 200px;
+  width: 100%;
+  background-color: #BFA931;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.container {
+  width: 100%;
+  padding: 0px;
+  margin: auto;
+}
+.mid{
+  margin: auto;
+  width: 90%;
+}
+.btn-give {
+  background-image: linear-gradient(to bottom,#027237 0,#027237 100%);
+  border-color: #027237;
+  width: 10%;
+}
+.btn-serve {
+  background-image: linear-gradient(to bottom,#F15A2B 0,#F15A2B 100%);
+  border-color: #F15A2B;
+  width: 10%;
+  padding-top: 1%;
 }
