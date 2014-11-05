@@ -66,7 +66,9 @@ body {
 .homebg {
   width: 100%;
   background-color:#66FFFF;
+  text-align:center;
 }
+
 .homebg h1 {
   text-align:center;
   font-weight: bold;
@@ -76,25 +78,34 @@ body {
 .homebg h2 {
   text-align:center;
   padding-top: 5%;
+  color: white;
 }
 .homebg h2>p {
+  text-align:center;
   padding-top: 1%;
   padding-bottom: 3%;
 }
+
 .hometext {
-  background-color:black;
-  opacity: 0.7;
-  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  width:75%;
   margin-top: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
+  filter: alpha(opacity=50);
+  display: inline-block;
+  border-radius: 25px;
+
 }
+
 .hometext p {
   color: white;
-  font-size:16px;
+  font-size:20px;
   text-align: center;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 30px 40px;
 }
 
 .col-lg-4 h2 {
@@ -188,14 +199,39 @@ body {
   margin: auto;
   width: 90%;
 }
+.btn-primary {
+  background-repeat: repeat;
+}
 .btn-give {
   background-image: linear-gradient(to bottom,#027237 0,#027237 100%);
   border-color: #027237;
   width: 10%;
+  height: 5%;
 }
 .btn-serve {
   background-image: linear-gradient(to bottom,#F15A2B 0,#F15A2B 100%);
   border-color: #F15A2B;
   width: 10%;
-  padding-top: 1%;
+  height: 5%;
+}
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.carousel{height:400px;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
