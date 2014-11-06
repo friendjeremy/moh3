@@ -20,11 +20,13 @@
   background-color: #2D2B14;
 }
 
+
 body {
   background-color:#302A14;
 }
 /*Primary content background, fonts, etc,*/
 .content {
+  text-align: center;
 	margin: auto;
 	padding-top: 50px;
 	height:auto;
@@ -40,7 +42,6 @@ body {
   height: 500px;
   vertical-align: middle;
   text-align: center;
-  background-color: #B7E0D8;
 }
 
 .missiontext {
@@ -49,20 +50,42 @@ body {
  display: inline-block;
  width: 75%; 
  text-align: center; 
- margin-top: 10%;
+ margin-top: 5%;
  border-radius: 25px;
 }
 
 .missiontext h1 {
   font-weight: bolder;
   color: white;
+  font-size: 400%;
 }
 .missiontext p {
     margin: 30px 40px;
     color: white;
     opacity: 1;
+    font-size: 150%;
 }
 
+
+.donatepage {
+  background-color: #AAAAAA;
+  height: 500px;
+  width: 75%;    
+
+  display: inline-block;
+  text-align: center; 
+}
+
+.donatetabs {
+  display: inline-block;
+}
+
+.donatetabs li {
+  float: left;
+  padding: 10px 50px 10px 50px;
+  margin: 5px 10px 10px 10px;
+  list-style: none;
+}
 .homebg {
   width: 100%;
   background-color:#66FFFF;
@@ -193,9 +216,13 @@ body {
   border-color: #027237;
   width: 10%;
 }
+
 .btn-serve {
   background-image: linear-gradient(to bottom,#F15A2B 0,#F15A2B 100%);
   border-color: #F15A2B;
   width: 10%;
   padding-top: 1%;
 }
+
+
+
