@@ -1,6 +1,21 @@
-<p></p>
-
-First Name: <input type="text" ng-model="person.firstName"><br>
-Last Name: <input type="text" ng-model="person.lastName"><br>
-<br>
-Full Name: {{person.firstName + " " + person.lastName}}
+<div class="donatepage">
+	<ul ng-init="tab = 1">
+		<div class="donatetabs">
+		<li ng-class="{active:tab===1}" style="background-color:green"> 
+			<a href ng-click="tab = 1">Time</a>	
+		</li>
+		<li ng-class="{active:tab===2}" style="background-color:red"> 
+			<a href ng-click="tab = 2">Goods</a> 
+		</li>
+		<li ng-class="{active:tab===3}" style="background-color:blue"> 
+			<a href ng-click="tab = 3">Money</a> 
+		</li>
+	</div>
+		<br><br>
+	<div class="donatebody">
+		<p ng-show="tab === 1" style="background-color:green"> Give us your time </p>
+		<p ng-show="tab === 2" style="background-color:red"> Give us your stuff </p>
+		<p ng-show="tab === 3" style="background-color:blue"> Give us your money </p>
+	</div>
+	</ul>	
+</div>		
