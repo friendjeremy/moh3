@@ -6,7 +6,7 @@ app.controller("HomeController",  function($scope){
     };
 
     $scope.BackgroundImage = {
-background: 'url(2008_dallas_skyline.jpg)',
+background: 'url(pimpphoto.png)',
 'background-size': 'cover',
 'background-repeat': 'no-repeat',
 'background-position': 'center center'

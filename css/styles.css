@@ -28,7 +28,7 @@ body {
 .content {
   text-align: center;
 	margin: auto;
-	padding-top: 50px;
+	padding-top: 30px;
 	height:auto;
 	font-family: Helvetica, sans-serif;
 	text-overflow:ellipsis;
@@ -90,6 +90,7 @@ body {
   width: 100%;
   background-color:#66FFFF;
   text-align:center;
+  padding-bottom: 2%;
 }
 
 .homebg h1 {
@@ -217,6 +218,13 @@ body {
   width: 100%;
   padding: 0px;
   margin: auto;
+}
+.marketing {
+  padding-top: 10px;
+}
+.sponsor-bar {
+  background-color: #BFA931;
+  text-align: center;
 }
 .mid{
   margin: auto;
