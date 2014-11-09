@@ -201,9 +201,10 @@ body {
 
 .instagram-gallery {
   margin: 0 auto;
-  width: 85%;
+  width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-left:4%;
 }
 
 .bottom-bar-home {
