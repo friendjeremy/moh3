@@ -247,6 +247,67 @@ body {
 <<<<<<< HEAD
   height: 5%;
 }
+.team-description {
+  background-color: #D2D2D2;
+  height: 100%;
+}
+.team-description h1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: bold;
+  color: black;
+}
+.team-image {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  border-image-width: 10px;
+  border-style: solid;
+  border-color: white;
+  width: 30%;
+  height: 30%;
+  float: left;
+}
+.team-header {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-bottom: 0px;
+}
+.teamtext p {
+  color: black;
+  font-size:20px;
+  text-align: right;
+  width:70%;
+  padding-left: 15%;
+}
+.col-md-1 {
+  width: 14%;
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.boardmembers {
+  text-align: center;
+  width: 100%;
+  background-color: #D2D2D2;
+  padding-top: 0px;
+}
+.boardmembers h1 {
+  font-weight: bold;
+  color: black;
+}
+.board-wrapper {
+  background-color: white;
+  width: 70%;
+  text-align: center;
+  padding: 0.5%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.team-body {
+  background-color: #D2D2D2;
+}
 
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
