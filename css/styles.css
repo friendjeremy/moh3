@@ -282,10 +282,11 @@ body {
   padding-left: 15%;
 }
 .col-md-1 {
-  width: 14%;
+  width: 14.1%;
   margin: 0;
   padding-left: 3px;
   padding-right: 3px;
+  margin-left: 0px;
 }
 .boardmembers {
   text-align: center;
@@ -308,7 +309,12 @@ body {
 .team-body {
   background-color: #D2D2D2;
 }
-
+.mid {
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 1px;
+  background-color: white;
+}
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
 .carousel{height:400px;}
