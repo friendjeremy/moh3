@@ -66,26 +66,54 @@ body {
     font-size: 150%;
 }
 
-
 .donatepage {
-  background-color: #AAAAAA;
-  height: 500px;
-  width: 75%;    
-
-  display: inline-block;
-  text-align: center; 
+  margin-top:5%;
+  text-align: center;
 }
 
-.donatetabs {
-  display: inline-block;
+.donatepage ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
 }
 
-.donatetabs li {
-  float: left;
-  padding: 10px 50px 10px 50px;
-  margin: 5px 10px 10px 10px;
-  list-style: none;
+.donatepage li {
+    float: left;
+    background-color: blue;
+    margin: 0px 10px 10px 10px;   
+    border-radius: 10px 10px 0px 0px;
 }
+
+.donatepage a {
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+
+.donategoods { 
+  border-style:solid;
+  border-width:5px;
+  border-color:#EE5B28;
+  margin-top:40px;
+  background-color: white;
+}
+.donatetime { 
+  border-style:solid;
+  border-width:5px;
+  border-color:#8DD2BF;
+  margin-top:40px;
+  background-color: white;
+}
+.donatemoney { 
+  border-style:solid;
+  border-width:5px;
+  border-color:#C2A933;
+  margin-top:40px;
+  background-color: white;
+}
+
 .homebg {
   width: 100%;
   background-color:#66FFFF;
