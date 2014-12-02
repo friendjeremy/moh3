@@ -13,13 +13,33 @@
 }
 
 .navbar .navbar-inner ul.nav a:hover {
-    color: #000000; 
+    color: #302A14; 
 }
 
 .nav>li>a:hover {
-  background-color: #2D2B14;
+  background-color: #302A14;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+color: white;
+}
+
+.navbar-inverse {
+border: none;
+}
+
+
+.navbar-header {
+  background-color: #BEAA31;
+}
+
+.navbar-collapse {
+  background-color: #BEAA31; 
+}
+
+.navbar-toggle {
+  background-color: #BEAA31;
+}
 
 body {
   background-color:#302A14;
@@ -28,7 +48,7 @@ body {
 .content {
   text-align: center;
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 50px;
 	height:auto;
 	font-family: Helvetica, sans-serif;
 	text-overflow:ellipsis;
@@ -273,7 +293,6 @@ body {
   background-image: linear-gradient(to bottom,#F15A2B 0,#F15A2B 100%);
   border-color: #F15A2B;
   width: 10%;
-<<<<<<< HEAD
   height: 5%;
 }
 .team-description {
@@ -364,10 +383,4 @@ body {
     padding-right: 0;
   }
 }
-=======
-  padding-top: 1%;
-}
 
-
-
->>>>>>> 6284315fe8998455e9b400ece4e69f7f2c03df38
