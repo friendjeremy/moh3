@@ -1,4 +1,4 @@
-var app = angular.module('interviewingAssistant', ['ngRoute'])
+var app = angular.module('MelodyOfHope', ['ngRoute'])
 
 app.config(function ($routeProvider){
 	
@@ -18,10 +18,6 @@ app.config(function ($routeProvider){
 		.when('/blog', {
 			templateUrl: 'views/blog.html',
 			controller: 'BlogController'
-		})
-		.when('/music', {
-			templateUrl: 'views/music.html',
-			controller: 'MusicController'
 		})
 		.when('/team', {
 			templateUrl: 'views/team.html',
