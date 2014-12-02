@@ -28,17 +28,12 @@ color: white;
 border: none;
 }
 
-
 .navbar-header {
   background-color: #BEAA31;
 }
 
 .navbar-collapse {
   background-color: #BEAA31; 
-}
-
-.navbar-toggle {
-  background-color: #BEAA31;
 }
 
 body {
@@ -49,7 +44,6 @@ body {
   text-align: center;
 	margin: auto;
 	padding-top: 50px;
-	height:auto;
 	font-family: Helvetica, sans-serif;
 	text-overflow:ellipsis;
 }
@@ -58,10 +52,15 @@ body {
   background-color:#2D2B14;
 }
 
+.missionpage {
+  height: 100%;
+}
+
 .missionbody {
-  height: 500px;
+  height: 100%;
   vertical-align: middle;
   text-align: center;
+  padding-bottom:5%;
 }
 
 .missiontext {
@@ -83,8 +82,18 @@ body {
     margin: 30px 40px;
     color: white;
     opacity: 1;
-    font-size: 150%;
+    font-size: 150%
 }
+
+@media (max-width: 767px) { 
+  .missiontext h1 {
+    font-size: 200%;
+  }
+  .missiontext p {
+   font-size: 100%;
+  }
+}
+
 
 .donatepage {
   margin-top:5%;
