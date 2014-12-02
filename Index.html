@@ -29,44 +29,40 @@
 </head>
 
 <body ng-app="MelodyOfHope" ng-controller="MainController">
-	
-	<table style="width: 100%" align="center">
-		<tr>
-			<td>
-				<div id='cssmenu'>
-					<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      			<div class="navbar-header">
-			        <button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
-			          <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-			        </button>
-      			</div>
-      			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
-							<ul class="nav navbar-nav">
-							   <li ng-class="{ active: isActive('/home')}"><a href='#/home'><span>Home</span></a></li>
-							   <li ng-class="{ active: isActive('/mission')}"><a href='#/mission'><span>Mission</span></a></li>
-							   <li ng-class="{ active: isActive('/events')}"><a href='#/events'><span>Events</span></a></li>
-							   <li ng-class="{ active: isActive('/blog')}"><a href='#/blog'><span>Blog</span></a></li>
-							   <li ng-class="{ active: isActive('/team')}"><a href='#/team'><span>Team</span></a></li>
-							   <li ng-class="{ active: isActive('/contact')}"><a href='#/contact'><span>Contact</span></a></li>
-							   <li ng-class="{ active: isActive('/donate')}"><a href='#/donate'><span>Donate</span></a></li>
-							</ul>
-						</div>
-					</nav>
-				</div>		
-
-				<div class="content" ng-view padding-top:65px>
-					
-				</div>
-			
-			</td>
-		</tr>
-		
-	</table>
-
+	<div id='cssmenu'>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="navbar-header">
+        <button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+			</div>
+			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+				<ul class="nav navbar-nav">
+				   <li ng-class="{ active: isActive('/home')}"><a href='#/home'><span>Home</span></a></li>
+				   <li ng-class="{ active: isActive('/mission')}"><a href='#/mission'><span>Mission</span></a></li>
+				   <li ng-class="{ active: isActive('/events')}"><a href='#/events'><span>Events</span></a></li>
+				   <li ng-class="{ active: isActive('/blog')}"><a href='#/blog'><span>Blog</span></a></li>
+				   <li ng-class="{ active: isActive('/team')}"><a href='#/team'><span>Team</span></a></li>
+				   <li ng-class="{ active: isActive('/contact')}"><a href='#/contact'><span>Contact</span></a></li>
+				   <li ng-class="{ active: isActive('/donate')}"><a href='#/donate'><span>Donate</span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>		
+	<div class="content" ng-view padding-top:65px>
+	</div>
+	<div class="footer navbar-fixed-bottom">
+		<div class="row" align="center">
+    		<a href="http://facebook.com/melodyofhope/" onmouseover="return fbchangeImage()" onmouseout="return fbchangeImageBack()" onmousedown="return fbhandleMDown()">
+        <img name="fbicon" src="./images/fbup.png" width="50" height="50" border="0" alt="Facebook"></a>
+        <a href="http://twitter.com/melodyofhopeorg/" onmouseover="return twchangeImage()" onmouseout="return twchangeImageBack()" onmousedown="return twhandleMDown()">
+        <img name="twicon" src="./images/twup.png" width="50" height="50" border="0" alt="Twitter"></a>
+        <a href="http://instagram.com/melodyofhope/" onmouseover="return igchangeImage()" onmouseout="return igchangeImageBack()" onmousedown="return ighandleMDown()">
+        <img name="igicon" src="./images/igup.png" width="50" height="50" border="0" alt="Instagram"></a>
+</div>
+  </div>
 </body>
-
-
 </html>

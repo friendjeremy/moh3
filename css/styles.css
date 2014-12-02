@@ -20,6 +20,11 @@
   background-color: #302A14;
 }
 
+.footer {
+  background-color: #BEAA31;
+  height: 50px;
+}
+
 .navbar-inverse .navbar-nav>li>a {
 color: white;
 }
@@ -39,6 +44,7 @@ border: none;
 body {
   background-color:#302A14;
 }
+
 /*Primary content background, fonts, etc,*/
 .content {
   text-align: center;
@@ -46,6 +52,7 @@ body {
 	padding-top: 50px;
 	font-family: Helvetica, sans-serif;
 	text-overflow:ellipsis;
+  padding-bottom: 70px;
 }
 
 .active {
