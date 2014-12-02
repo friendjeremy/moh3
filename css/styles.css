@@ -155,6 +155,7 @@ body {
   background-color:#66FFFF;
   text-align:center;
   padding-bottom: 2%;
+  display: inline-block;
 }
 
 .homebg h1 {
@@ -234,6 +235,10 @@ body {
   width: 100%;
 }
 
+.home-news {
+  width: 77%;
+}
+
 .img-square {
   color: #2D2B14;
   width: 100%;
@@ -286,6 +291,7 @@ body {
 }
 .marketing {
   padding-top: 10px;
+  background-color: #D2D2D2;
 }
 .sponsor-bar {
   background-color: #BFA931;
@@ -314,6 +320,7 @@ body {
 .team-description {
   background-color: #D2D2D2;
   height: 100%;
+  padding-bottom: 3%;
 }
 .team-description h1 {
   padding-top: 3%;
@@ -328,8 +335,8 @@ body {
   border-image-width: 10px;
   border-style: solid;
   border-color: white;
-  width: 30%;
-  height: 30%;
+  width: 15%;
+  height: auto;
   float: left;
 }
 .team-header {
@@ -346,11 +353,12 @@ body {
   padding-left: 15%;
 }
 .col-md-1 {
-  width: 14.1%;
+  width: 14%;
   margin: 0;
   padding-left: 3px;
   padding-right: 3px;
   margin-left: 0px;
+  display: inline-block;
 }
 .boardmembers {
   text-align: center;
@@ -372,6 +380,7 @@ body {
 }
 .team-body {
   background-color: #D2D2D2;
+  display: inline-block;
 }
 .mid {
   width: 100%;
@@ -379,6 +388,9 @@ body {
   margin-right: 1px;
   background-color: white;
 }
+.board-image {
+    height: 140px;
+  }
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
 .carousel{height:400px;}
@@ -392,11 +404,35 @@ body {
     transition: 0.3s ease-in-out left;
 }
 
+@media (max-width: 990px) { 
+  .col-md-1 {
+    width: 20%;
+  }
+}
 /* keep full widget on smaller screens */
 @media (max-width: 767px) { 
   body {
     padding-left: 0;
     padding-right: 0;
   }
+  .col-md-1 {
+    width: 30%;
+  }
+  .board-image {
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+    .col-md-1 {
+        width:14%;
+    }
+    .board-wrapper {
+      width: 50%;
+    }
+    .team-image {
+      width: 15%;
+      height: auto;
+    }
 }
 
