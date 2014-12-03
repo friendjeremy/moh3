@@ -40,6 +40,15 @@ border: none;
 .navbar-collapse {
   background-color: #BEAA31; 
 }
+.navbar .nav > .active > a {
+    background:none;
+}
+.navbar-nav > .active > a:focus {
+  background-color: #302A14;
+}
+.navbar-nav > .active > a {
+  background-color: #302A14 !IMPORTANT;
+}
 
 body {
   background-color:#302A14;
