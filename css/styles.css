@@ -592,7 +592,7 @@ body {
 .blog-img {
   width:344px;
   height:308px; 
-  margin-top:80px;
+  margin-top:40px;
 }
 @media (max-width: 767px) { 
   .blog-img {
