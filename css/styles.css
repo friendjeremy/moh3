@@ -413,7 +413,12 @@ body {
   float: left;
 }
 @media (max-width: 1200px) { 
-
+  .team-image {
+    width: 35%;
+    margin-top: 2%;
+    height: auto;
+    float: left;
+  }
 }
 
 @media (max-width: 767px) { 
@@ -421,9 +426,9 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    width: 70%;
+    width: 60%;
     margin-top: 2%;
-    margin-left:12%;
+    margin-left:16%;
   }
 }
 .team-header {
@@ -432,12 +437,31 @@ body {
   padding-left: 5%;
   padding-bottom: 0px;
 }
+.teamtext {
+  padding-left: 10%;
+}
 .teamtext p {
   color: black;
   font-size:20px;
   text-align: right;
   width:70%;
-  padding-left: 15%;
+}
+@media (max-width: 1200px) { 
+  .teamtext {
+    padding-left: 30%;
+  }
+}
+
+@media (max-width: 767px) { 
+  .teamtext {
+    padding-left: 10%;
+  }
+  .teamtext p {
+    color: black;
+    font-size:14px;
+    text-align: center;
+    width:80%;
+  }
 }
 .col-md-1 {
   width: 14%;
@@ -446,6 +470,40 @@ body {
   padding-right: 3px;
   margin-left: 0px;
   display: inline-block;
+}
+.board-wrapper {
+  background-color: white;
+  width: 70%;
+  text-align: center;
+  padding: 0.5%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+@media (max-width: 1200px) { 
+  .col-director {
+    width: 14%;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 0px;
+    display: inline-block;
+  }
+  .board-wrapper {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) { 
+  .col-director {
+    width: 100px;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 0px;
+    display: inline-block;
+  }
+  .board-wrapper {
+    width: 40%;
+  }
 }
 .boardmembers {
   text-align: center;
@@ -456,14 +514,6 @@ body {
 .boardmembers h1 {
   font-weight: bold;
   color: black;
-}
-.board-wrapper {
-  background-color: white;
-  width: 70%;
-  text-align: center;
-  padding: 0.5%;
-  padding-left: 0%;
-  padding-right: 0%;
 }
 .team-body {
   background-color: #D2D2D2;
@@ -493,7 +543,7 @@ body {
 
 @media (max-width: 990px) { 
   .col-md-1 {
-    width: 20%;
+    /*width: 20%;*/
   }
 }
 /* keep full widget on smaller screens */
@@ -503,7 +553,7 @@ body {
     padding-right: 0;
   }
   .col-md-1 {
-    width: 30%;
+    /*width: 30%;*/
   }
   .board-image {
     height: 110px;
@@ -512,10 +562,7 @@ body {
 
 @media screen and (min-width: 1680px) {
     .col-md-1 {
-        width:14%;
-    }
-    .board-wrapper {
-      width: 50%;
+        /*width:14%;*/
     }
     .team-image {
       width: 15%;
