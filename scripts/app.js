@@ -1,4 +1,4 @@
-var app = angular.module('MelodyOfHope', ['ngRoute'])
+var app = angular.module('MelodyOfHope', ['ngRoute', 'ui.bootstrap'])
 
 app.config(function ($routeProvider){
 	
