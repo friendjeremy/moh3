@@ -224,15 +224,7 @@ body {
   padding: 0px;
   margin: 0px;
 }
-.col-home-1 {
-  background-color:white;
-  padding: 0px;
-  margin-right: 1%;
-  margin-left: 3%;
-  width: 30%;
-  height: 320px;
-}
-.col-home-2 {
+.col-home {
   background-color:white;
   padding: 0px;
   margin-right: 1%;
@@ -240,38 +232,55 @@ body {
   width: 30%;
   height: 320px;
 }
-.col-home-3 {
-  background-color:white;
-  padding: 0px;
-  margin-right: 3%;
-  margin-left: 1%;
-  width: 30%;
-  height: 320px;
+.home-square {
+  height: 200px;
 }
+.instagram-roll {
+  width: 83.4%;
+  padding-right: 11%;
+  height: 115px;
+}
+
+@media (max-width: 1200px) { 
+  .col-home>p {
+    font-size: 80%;
+  }
+  .col-home {
+  height: 280px;
+  width: 30%;
+  }
+  .home-square {
+    height: 160px;
+  }
+  .home-youtube {
+    height: 160px;
+  }
+  .instagram-roll {
+    width:83.5%;
+    padding-right: 11.2%;
+  }
+  .instagram-gallery {
+    width:70%;
+  }
+}
+
 @media (max-width: 767px) { 
-  .col-home-1 {
-    width:200px;
-    margin-right: 1%;
-    margin-left: 1%;
-  }
-  .col-home-2 {
-    width:200px;
-    margin-right: 1%;
-    margin-left: 1%;
-  }
-  .col-home-3 {
-    width:200px;
-    margin-right: 1%;
-    margin-left: 1%;
-  }
-  .col-home-1>p {
+  .col-home>p {
     font-size: 80%;
   }
-  .col-home-2>p {
-    font-size: 80%;
+  .col-home {
+  height: 240px;
+  width: 70%;
   }
-  .col-home-3>p {
-    font-size: 80%;
+  .home-square {
+    height: 140px;
+  }
+  .home-youtube {
+    height: 160px;
+  }
+  .instagram-roll {
+    width:83%;
+    padding-right: 29.2%;
   }
 }
 
