@@ -407,9 +407,24 @@ body {
   border-image-width: 10px;
   border-style: solid;
   border-color: white;
-  width: 15%;
+  width: 25%;
+  margin-top: 2%;
   height: auto;
   float: left;
+}
+@media (max-width: 1200px) { 
+
+}
+
+@media (max-width: 767px) { 
+  .team-image {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    width: 70%;
+    margin-top: 2%;
+    margin-left:12%;
+  }
 }
 .team-header {
   width: 100%;
