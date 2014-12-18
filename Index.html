@@ -27,13 +27,13 @@
 			</div>
 			<div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
 				<ul class="nav navbar-nav">
-				   <li ng-class="{ active: isActive('/home')}"><a href='#/home'><span>Home</span></a></li>
-				   <li ng-class="{ active: isActive('/mission')}"><a href='#/mission'><span>Mission</span></a></li>
-				   <li ng-class="{ active: isActive('/events')}"><a href='#/events'><span>Events</span></a></li>
-				   <li ng-class="{ active: isActive('/blog')}"><a href='#/blog'><span>Blog</span></a></li>
-				   <li ng-class="{ active: isActive('/team')}"><a href='#/team'><span>Team</span></a></li>
-				   <li ng-class="{ active: isActive('/contact')}"><a href='#/contact'><span>Contact</span></a></li>
-				   <li ng-class="{ active: isActive('/donate')}"><a href='#/donate'><span>Donate</span></a></li>
+				   <li ng-class="{ active: isActive('/home')}" ng-click="collapseMenu()"><a href='#/home'><span>Home</span></a></li>
+				   <li ng-class="{ active: isActive('/mission')}" ng-click="collapseMenu()"><a href='#/mission'><span>Mission</span></a></li>
+				   <li ng-class="{ active: isActive('/events')}" ng-click="collapseMenu()"><a href='#/events'><span>Events</span></a></li>
+				   <li ng-class="{ active: isActive('/blog')}" ng-click="collapseMenu()"><a href='#/blog'><span>Blog</span></a></li>
+				   <li ng-class="{ active: isActive('/team')}" ng-click="collapseMenu()"><a href='#/team'><span>Team</span></a></li>
+				   <li ng-class="{ active: isActive('/contact')}" ng-click="collapseMenu()"><a href='#/contact'><span>Contact</span></a></li>
+				   <li ng-class="{ active: isActive('/donate')}" ng-click="collapseMenu()"><a href='#/donate'><span>Donate</span></a></li>
 				</ul>
 			</div>
 		</nav>
