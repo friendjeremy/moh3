@@ -1,9 +1,4 @@
 app.controller("MissionController", function($scope){   
-
-    $scope.person = {
-        firstName: "Our",
-        lastName: "Mission"
-    };
    
 	$scope.BackgroundImage = {
     	background: 'url(Mission.jpg)',
