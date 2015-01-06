@@ -67,21 +67,35 @@ h1 {
 	text-overflow:ellipsis;
   padding-bottom: 50px;
   width: 70%;
+  background-color: #D2D2D2;
+}
+
+@media (max-width: 767px) {
+  .content {
+  width: 100%;
+  }
 }
 
 .active {
   background-color:#2D2B14;
 }
 
-.missionpage {
-  height: 100%;
+.maincontainer {
+  height: 750px;
 }
 
+.blogpage {
+  height: 700px;
+}
+
+.missionpage {
+  height: 750px;
+}
 .missionbody {
-  height: 100%;
   vertical-align: middle;
   text-align: center;
   padding-bottom:5%;
+  border-bottom: solid;
 }
 
 .missiontext {
@@ -638,6 +652,7 @@ h1 {
   line-height: 1.33;
   border-radius: 6px;
 }
+
 .blog-img {
   width:344px;
   height:308px; 
