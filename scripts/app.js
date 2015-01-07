@@ -30,6 +30,11 @@ app.config(function ($routeProvider){
 		.when('/donate', {
 			templateUrl: 'views/donate.html',
 			controller: 'DonateController'
+		})
+		.when('/', {
+			templateUrl: 'views/home.html',
+			controller: 'HomeController',
+			redirectTo: '/home'
 		});
 })
 
