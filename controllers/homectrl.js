@@ -9,7 +9,9 @@ app.controller("HomeController",  function($scope){
     	background: 'url(pimpphoto.png)',
     	'background-size': 'cover',
     	'background-repeat': 'no-repeat',
-    	'background-position': 'center center'
+    	'background-position': 'center center',
+        'padding-top': '1px',
+        'padding-bottom': '2%'
     };
 
     $scope.InstagramBgImg = {
