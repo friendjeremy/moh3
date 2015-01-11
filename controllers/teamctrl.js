@@ -1,4 +1,4 @@
-app.controller("TeamController",  function($scope){
+app.controller("TeamController",  function ($scope, $modal, $log){
 
 $scope.items = ['item1', 'item2', 'item3'];
 
