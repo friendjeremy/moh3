@@ -3,9 +3,9 @@
 <p><b>Melody of Hope<br>5941 Stone Mountain<br>The Colony, TX 75056</b></p>
 <p>Otherwise please feel free to donate here!</p>
 
-<div class="donate-form-div"  ng-show="isReplyFormOpen" align="center">
+<div class="donate-form-div"  ng-show="isDonateRecur" align="center">
     <div class="donate-form">
-        <button ng-click="isReplyFormOpen = !isReplyFormOpen">Recurring Donation</button>
+        <button ng-click="isDonateRecur = !isDonateRecur">Recurring Donation</button>
         <h2 align="center">One Time Donation</h2><hr>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_xclick">
@@ -27,9 +27,9 @@
         </form>
     </div>
 </div>
-<div class="donate-form-div"  ng-hide="isReplyFormOpen" align="center">
+<div class="donate-form-div"  ng-hide="isDonateRecur" align="center">
     <div class="donate-form">
-        <button ng-click="isReplyFormOpen = !isReplyFormOpen">One Time Donation</button>
+        <button ng-click="isDonateRecur = !isDonateRecur">One Time Donation</button>
         <h2 align="center">Recurring Donations</h2>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_xclick-subscriptions">
