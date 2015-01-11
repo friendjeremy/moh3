@@ -1,4 +1,3 @@
-
 #cssmenu {
   margin: 0;
   list-style: none;
@@ -34,11 +33,11 @@ border: none;
 }
 
 .navbar-header {
-  background-color: #BEAA31;
+  background-color: #EE5B28;
 }
 
 .navbar-collapse {
-  background-color: #BEAA31; 
+  background-color: #EE5B28; 
 }
 .navbar .nav > .active > a {
     background:none;
