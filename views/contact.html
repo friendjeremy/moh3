@@ -1,12 +1,51 @@
-<div class="row">
-<div class="col-sm-2 col-md-3"></div>
-<div class="col-xs-12 col-sm-8 col-md-6">
-<div class="donate-form-div">
-    <div class="donate-form">
-        <h2 align="center">Contact Information</h2>
-        <hr>
-        <p>If you have any questsions, suggestions, encouragements, or simply want to know more about Melody of Hope, please email board@melodyofhope.org.</p><p>You may also contact the following people directly:</p><p><b>Charlie Welch</b><br>Executive Director and President<br>Charlie.Welch@melodyofhope.org<br>972-977-6064</p><p><b>Jeremy Ottens</b><br>Vice President<br>Jeremy@melodyofhope.org<br>469.831.3894</p>
+<div class="contactpage">
+	<div class="contactbody">
+		<div class="vertical-middle">
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">Contact Form</h2>
+                </div>
+                <div class="panel-body">
+                    <form ng-submit="submit(contactform)" name="contactform" method="post" action="" class="form-horizontal" role="form">
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+                            <label for="inputName" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input ng-model="formData.inputName" type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
+                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input ng-model="formData.inputEmail" type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputSubject.$invalid && submitted }">
+                            <label for="inputSubject" class="col-lg-2 control-label">Subject</label>
+                            <div class="col-lg-10">
+                                <input ng-model="formData.inputSubject" type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message" required>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+                            <label for="inputMessage" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea ng-model="formData.inputMessage" class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..." required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+                                <button type="submit" class="btn btn-default" ng-disabled="submitButtonDisabled">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p ng-class="result" style="padding: 15px; margin: 0;">{{ resultMessage }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    	<h2 align="center">Contact Information</h2>
+        <p>If you have any questions, suggestions, encouragements, or simply want to know more about Melody of Hope, please email board@melodyofhope.org.</p><p>You may also contact the following people directly:</p><p><b>Charlie Welch</b><br>Executive Director and President<br>Charlie.Welch@melodyofhope.org<br>972-977-6064</p><p><b>Jeremy Ottens</b><br>Vice President<br>Jeremy@melodyofhope.org<br>469.831.3894</p>
 	</div>
-</div>
-</div>
 </div>
