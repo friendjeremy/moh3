@@ -180,6 +180,10 @@ h1 {
     list-style-type: none;
 }
 
+.donate-form-div {
+  height: 1000px;
+}
+
 .donatepage li {
     float: left;
     background-color: blue;
