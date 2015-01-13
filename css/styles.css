@@ -124,6 +124,7 @@ h1 {
 }
 
 .upcomingevents {
+  box-shadow: 10px 10px 5px #888888;
   margin: 20px 0px 14px 0px;
   width: 60%;
   height: 450px ;
@@ -180,8 +181,9 @@ h1 {
     list-style-type: none;
 }
 
-.donate-form-div {
-  height: 1000px;
+.donatepage {
+  margin-top:50px;
+  font-size: 130%;
 }
 
 .donatepage li {
