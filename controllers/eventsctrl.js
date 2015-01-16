@@ -1,7 +1,7 @@
 app.controller("EventsController", function ($scope, $modal, $log){
 
 	$scope.BackgroundImage = {
-    	background: 'url(UC4LifeFlyer.png)',
+    	background: 'url(HomeEvent.png)',
     	'background-size': 'cover',
         'background-repeat': 'no-repeat',
         'background-position': 'center center'
