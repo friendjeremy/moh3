@@ -69,6 +69,7 @@ body {
 }
 
 h1 {
+  font-family: 'Permanent Marker', cursive;
     font-size: 300%;
 }
 
@@ -98,7 +99,7 @@ h1 {
   vertical-align: middle;
   text-align: center;
   padding-bottom:5%;
-  height: 783px;
+  background: url(Mission_brown.jpg) 50% 50% / cover no-repeat;
 }
 
 .missiontext {
@@ -107,7 +108,7 @@ h1 {
  display: inline-block;
  width: 75%; 
  text-align: center; 
- margin-top: 12%;
+ margin-top: 10%;
  border-radius: 25px;
 }
 
@@ -265,6 +266,8 @@ h1 {
   padding-bottom: 3%;
 }
 
+h2 { font-family: 'Offside', cursive; }
+
 .hometext {
   background-color:rgba(0,0,0,0.5);
   width:75%;
@@ -388,21 +391,21 @@ h1 {
 }
 
 .header1 p {
-  color: yellow;
+  
   padding: 0px;
   font-size: 20px;
   margin: 2px;
 }
 
 .header2 p {
-  color: red;
+  
   padding: 0px;
   font-size: 20px;
   margin: 2px;
 }
 
 .header3 p {
-  color: blue;
+  
   padding: 0px;
   font-size: 20px;
   margin: 2px;
@@ -435,7 +438,7 @@ h1 {
 }
 .sponsor-bar {
 
-  background-color: #8DD2BF;
+  background-color: rgba(0,0,0,0.1);
   text-align: center;
 }
 .mid{
@@ -446,19 +449,20 @@ h1 {
   background-repeat: repeat;
 }
 .btn-give {
-  background-image: linear-gradient(to bottom,#027237 0,#027237 100%);
-  border-color: #027237;
-  width: 10%;
-  height: 5%;
-  font-size: 100%;
+  background-image: linear-gradient(to bottom,#C2A933 0,#C2A933 100%);
+  border-color: #C2A933;
+
+}
+
+.btn{
+  font-family: 'Offside', cursive;
+  font-size: 20px;
 }
 
 .btn-serve {
-  background-image: linear-gradient(to bottom,#F15A2B 0,#F15A2B 100%);
-  border-color: #F15A2B;
-  width: 10%;
-  height: 5%;
-  font-size: 100%;
+  background-image: linear-gradient(to bottom,#C2A933 0,#C2A933 100%);
+  border-color: #C2A933;
+jniu898uky≥÷≥
 }
 @media (max-width: 767px) { 
   .btn-give {
@@ -651,6 +655,21 @@ h1 {
     }
 }
 
+<<<<<<< Updated upstream
+=======
+.donate-form-div {
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  color: white;
+  height: 75%;
+}
+>>>>>>> Stashed changes
 .input-lg {
   height: 55px;
   padding: 14px 16px;
