@@ -322,7 +322,7 @@ h2 { font-family: 'Offside', cursive; }
   margin-right: 1%;
   margin-left: 1%;
   width: 30%;
-  height: 460px;
+  height: 480px;
 }
 .col-home>p {
     font-size: 95%;
@@ -402,21 +402,18 @@ h2 { font-family: 'Offside', cursive; }
 .header1 p {
   
   padding: 0px;
-  font-size: 20px;
   margin: 2px;
 }
 
 .header2 p {
   
   padding: 0px;
-  font-size: 20px;
   margin: 2px;
 }
 
 .header3 p {
   
   padding: 0px;
-  font-size: 20px;
   margin: 2px;
 }
 
