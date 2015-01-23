@@ -660,16 +660,12 @@ h1 {
 }
 
 .blog-img {
-  width:344px;
-  height:308px; 
-  margin-top:40px;
+  width:980px;
+  height:1268px; 
+  margin-top:30px;
 }
-@media (max-width: 767px) { 
-  .blog-img {
-    width: 300px;
-    height:278px;
-  }
-}
+
+
 input {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
