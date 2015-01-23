@@ -9,6 +9,7 @@
 .nav {
   background-color: #1e1e1d;
   width: 100%;
+  font-family: 'Offside', cursive;
 }
 
 .navbar .navbar-inner ul.nav a:hover {
@@ -463,8 +464,8 @@ h2 { font-family: 'Offside', cursive; }
 .btn-serve {
   background-image: linear-gradient(to bottom,#C2A933 0,#C2A933 100%);
   border-color: #C2A933;
-jniu898uky≥÷≥
 }
+
 @media (max-width: 767px) { 
   .btn-give {
     height: 3%;
