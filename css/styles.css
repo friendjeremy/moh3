@@ -8,8 +8,9 @@
 
 .nav {
   background-color: #1e1e1d;
-  width: 100%;
+  width: 90%;
   font-family: 'Offside', cursive;
+  padding-left: 10px;
 }
 
 .navbar .navbar-inner ul.nav a:hover {
@@ -18,6 +19,11 @@
 
 .nav>li>a:hover {
   background-color: #1e1e1d;
+}
+
+.nav ul {
+    display: inline-block;
+    list-style-type: none;
 }
 
 .footer {
