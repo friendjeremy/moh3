@@ -320,6 +320,7 @@ h2 { font-family: 'Offside', cursive; }
 }
 .col-home>p {
     font-size: 95%;
+    padding: 7px;
   }
 .home-square {
   height: 240px;
