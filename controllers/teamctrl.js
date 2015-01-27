@@ -1,6 +1,6 @@
 app.controller("TeamController",  function ($scope, $modal, $log){
 
-$scope.items = ['item1', 'item2', 'item3'];
+// $scope.items = ['item1', 'item2', 'item3'];
 
 	  $scope.open = function (size) {
 

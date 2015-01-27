@@ -7,7 +7,7 @@ app.controller("EventsController", function ($scope, $modal, $log){
         'background-position': 'center center'
 	};
 
-	$scope.items = ['item1', 'item2', 'item3'];
+//	//$scope.items = ['item1', 'item2', 'item3'];
 
 	  $scope.open = function (size) {
 
