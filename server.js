@@ -11,7 +11,7 @@ var port = process.env.PORT || 8000;
 var oneDay = 86400000;
 
 app.engine('html', require('ejs').renderFile);
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/app/views');
 
 //app.use(express.compress());
 // app.use(minify(
@@ -33,7 +33,7 @@ app.use(connect.json())
 // {
 //     //maxAge: oneDay
 // }));
-app.use(express.static(__dirname + '/',
+app.use(express.static(__dirname + '/app',
 {
     //maxAge: oneDay
 }));
