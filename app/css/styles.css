@@ -1,0 +1,700 @@
+#cssmenu {
+  margin: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  font-family: Gotham, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: #1e1e1d;
+  width: 90%;
+  font-family: 'Offside', cursive;
+  padding-left:10px;
+}
+
+.navbar .navbar-inner ul.nav a:hover {
+    color: #1e1e1d; 
+}
+
+.nav>li>a:hover {
+  background-color: #1e1e1d;
+}
+
+.footer {
+  background-color: #1e1e1d;
+  height: 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: white;
+}
+
+.navbar-inverse {
+border: none;
+}
+
+.navbar-header {
+  background-color: #1e1e1d;
+}
+
+.navbar-collapse {
+  background-color: #1e1e1d; 
+}
+.navbar .nav > .active > a {
+    background-color: #1e1e1d;
+}
+.navbar-nav > .active > a:focus {
+  background-color: #1e1e1d;
+}
+.navbar-nav > .active > a {
+  background-color: #1e1e1d;
+}
+/* New Nav starts here */
+#cssmenu > nav > div.navbar-collapse.collapse > ul > li.active {
+  background-color: #1e1e1d;
+}
+#cssmenu > nav > div.navbar-collapse.collapse > ul > li > a > span {
+  color: #c1a933;
+  margin-right: 30px;
+}
+#cssmenu > nav > div.navbar-collapse.collapse > ul > li.active > a > span {
+  color: #ffffff !IMPORTANT;
+}
+#cssmenu > nav > div.navbar-collapse.collapse > ul > li > a:hover > span {
+  color: #ffffff !IMPORTANT;
+}
+/*New Nav End */
+body {
+  background-color:#D2D2D2;
+  color: black;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+    font-size: 300%;
+}
+
+/*Primary content background, fonts, etc,*/
+.content {
+  text-align: center;
+	margin: auto;
+	padding-top: 50px;
+	font-family: Helvetica, sans-serif;
+	text-overflow:ellipsis;
+  padding-bottom: 50px;
+ /* width: 70%;*/
+  background-color: #D2D2D2;
+}
+
+@media (max-width: 767px) {
+  .content {
+  width: 100%;
+  }
+}
+
+.active {
+  background-color:#1e1e1d;
+}
+
+.missionbody {
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom:5%;
+  background: url(Mission_bw.jpg) 50% 50% / cover no-repeat;
+}
+
+.missiontext {
+ background-color:rgba(0,0,0,0.5);
+ filter: alpha(opacity=50); 
+ display: inline-block;
+ width: 75%; 
+ text-align: center; 
+ margin-top: 10%;
+ border-radius: 25px;
+}
+
+.missiontext h1 {
+  font-weight: bolder;
+  color: white;
+  font-size: 400%;
+}
+
+.missiontext p {
+    margin: 30px 40px;
+    color: white;
+    opacity: 1;
+    font-size: 150%
+}
+
+@media (max-width: 767px) { 
+  .missiontext h1 {
+    font-size: 200%;
+  }
+  .missiontext p {
+   font-size: 100%;
+  }
+}
+
+.eventspage {
+  height: 100%;
+}
+
+.upcomingevents {
+  box-shadow: 10px 10px 5px #888888;
+  margin: 20px 0px 14px 0px;
+  width: 60%;
+  height: 450px ;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.eventsbody {
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom:5%;
+  font-size: 150%
+}
+
+.btn-tickets {
+  position: absolute;
+  bottom: 3%;
+  left: 42%;
+  background-image: linear-gradient(to bottom,#0057E5 0,#0B487A 100%);
+  border-color: #027237;
+  width: 15%;
+  height: 8%;
+  font-size: 100%;
+}
+
+.pastevents {
+  background-color: #D2D2D2;
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+
+}
+
+@media (max-width: 767px) { 
+  .eventstext h1 {
+    font-size: 200%;
+  }
+  .eventstext p {
+   font-size: 100%;
+  }
+}
+
+.donatepage {
+  margin-top:5%;
+  text-align: center;
+}
+
+.donatepage ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.donatepage {
+  margin-top:50px;
+  font-size: 130%;
+}
+
+.donatepage li {
+    float: left;
+    background-color: blue;
+    margin: 0px 10px 10px 10px;   
+    border-radius: 10px 10px 0px 0px;
+}
+
+.donatepage a {
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+
+.donategoods { 
+  border-style:solid;
+  border-width:5px;
+  border-color:#EE5B28;
+  margin-top:40px;
+  background-color: white;
+}
+.donatetime { 
+  border-style:solid;
+  border-width:5px;
+  border-color:#8DD2BF;
+  margin-top:40px;
+  background-color: white;
+}
+.donatemoney { 
+  border-style:solid;
+  border-width:5px;
+  border-color:#C2A933;
+  margin-top:40px;
+  background-color: white;
+  width: 75%;
+}
+
+.contactpage p {
+  font-size: 130%;
+}
+
+.homebg {
+  width: 100%;
+  background-color:#66FFFF;
+  text-align:center;
+  padding-bottom: 2%;
+  display: inline-block;
+}
+
+.homebg h1 {
+  text-align:center;
+  font-weight: bold;
+  color: white;
+  padding-top: 1%;
+}
+.homebg h2 {
+  text-align:center;
+  padding-top: 5%;
+  color: white;
+}
+.homebg h2>p {
+  text-align:center;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+h2 { font-family: 'Offside', cursive; }
+
+.hometext {
+  background-color:rgba(0,0,0,0.5);
+  width:75%;
+  margin-top: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  filter: alpha(opacity=50);
+  display: inline-block;
+  border-radius: 25px;
+
+}
+
+.hometext p {
+  color: white;
+  font-size:20px;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 30px 40px;
+}
+
+@media (max-width: 767px) { 
+  .homebg h1 {
+    font-size: 200%;
+  }
+  .homebg h2 {
+   font-size: 150%;
+  }
+  .hometext p {
+   font-size: 100%;
+   padding-left: 2%;
+  padding-right: 2%;
+  }
+}
+
+.col-lg-4 h2 {
+  padding: 0px;
+  margin: 0px;
+}
+.col-home {
+  background-color:white;
+  padding: 0px;
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 30%;
+  height: 580px;
+}
+.col-home>p {
+    font-size: 95%;
+    padding: 7px;
+  }
+.home-square {
+  height: 240px;
+}
+.instagram-roll {
+  width: 100%;
+  padding-left: 0.5%;
+  height: 115px;
+}
+
+@media (max-width: 1200px) { 
+  .col-home>p {
+    font-size: 80%;
+  }
+  .col-home {
+  height: 520px;
+  width: 30%;
+  }
+  .home-square {
+    height: 160px;
+  }
+  .home-youtube {
+    height: 160px;
+  }
+  .instagram-roll {
+    width:100%;
+    padding-right:0.5%;
+  }
+  .instagram-gallery {
+    width:70%;
+  }
+}
+
+@media (max-width: 767px) { 
+  .col-home>p {
+    font-size: 80%;
+  }
+  .col-home {
+  height: 90%;
+  width: 70%;
+  margin: 0 auto;
+  }
+  .home-square {
+    height: 140px;
+  }
+  .home-youtube {
+    height: 160px;
+  }
+  .instagram-roll {
+    width:100%;
+    padding-right:0.5%;
+  }
+}
+
+.div {
+  column-gap:5%;
+}
+
+.row {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home-news {
+  width: 77%;
+}
+
+.img-square {
+  color: #2D2B14;
+  width: 100%;
+}
+
+.header1 p {
+  
+  padding: 0px;
+  margin: 2px;
+}
+
+.header2 p {
+  
+  padding: 0px;
+  margin: 2px;
+}
+
+.header3 p {
+  
+  padding: 0px;
+  margin: 2px;
+}
+
+.instagram-gallery {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  margin-left:12%;
+}
+
+.bottom-bar-home {
+  height: 200px;
+  width: 100%;
+  background-color: #BFA931;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.container {
+  width: 100%;
+  padding: 0px;
+  margin: auto;
+}
+.marketing {
+  padding-top: 70px;
+  background-color: #D2D2D2;
+}
+.sponsor-bar {
+
+  background-color: rgba(0,0,0,0.1);
+  text-align: center;
+}
+.mid{
+  margin: auto;
+  width: 90%;
+}
+.btn-primary {
+  background-repeat: repeat;
+}
+.btn-give {
+  background-image: linear-gradient(to bottom,#C2A933 0,#C2A933 100%);
+  border-color: #C2A933;
+
+}
+
+.btn{
+  font-family: 'Offside', cursive;
+  font-size: 20px;
+}
+
+.btn-serve {
+  background-image: linear-gradient(to bottom,#C2A933 0,#C2A933 100%);
+  border-color: #C2A933;
+}
+
+@media (max-width: 767px) { 
+  .btn-give {
+    height: 3%;
+    width: auto;
+    font-size: 70%;
+  }
+  .btn-serve {
+    height: 3%;
+    width: auto;
+    font-size: 70%;
+  }
+}
+.team-description {
+  background-color: #D2D2D2;
+  height: 100%;
+  padding-bottom: 3%;
+}
+.team-description h1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: bold;
+  color: black;
+}
+.team-image {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  border-image-width: 10px;
+  border-style: solid;
+  border-color: white;
+  width: 27%;
+  margin-top: 2%;
+  height: auto;
+  float: left;
+}
+@media (max-width: 1200px) { 
+  .team-image {
+    width: 35%;
+    margin-top: 2%;
+    height: auto;
+    float: left;
+  }
+}
+
+@media (max-width: 767px) { 
+  .team-image {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    width: 60%;
+    margin-top: 2%;
+    margin-left:16%;
+  }
+}
+.team-header {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-bottom: 0px;
+}
+.teamtext {
+  padding-left: 10%;
+}
+.teamtext p {
+  color: black;
+  font-size:20px;
+  text-align: right;
+  width:70%;
+}
+@media (max-width: 1200px) { 
+  .teamtext {
+    padding-left: 30%;
+  }
+}
+
+@media (max-width: 767px) { 
+  .teamtext {
+    padding-left: 10%;
+  }
+  .teamtext p {
+    color: black;
+    font-size:14px;
+    text-align: center;
+    width:80%;
+  }
+}
+.col-md-1 {
+  width: 14%;
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 0px;
+  display: inline-block;
+}
+.board-wrapper {
+  background-color: white;
+  width: 70%;
+  text-align: center;
+  padding: 0.5%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+@media (max-width: 1200px) { 
+  .col-director {
+    width: 14%;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 0px;
+    display: inline-block;
+  }
+  .board-wrapper {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) { 
+  .col-director {
+    width: 100px;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 0px;
+    display: inline-block;
+  }
+  .board-wrapper {
+    width: 40%;
+  }
+}
+.boardmembers {
+  text-align: center;
+  width: 100%;
+  background-color: #D2D2D2;
+  padding-top: 0px;
+}
+.boardmembers h1 {
+  font-weight: bold;
+  color: black;
+}
+.team-body {
+  background-color: #D2D2D2;
+  display: inline-block;
+}
+.mid {
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 1px;
+  background-color: white;
+}
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.carousel{height:400px;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+@media (max-width: 990px) { 
+  .col-md-1 {
+    /*width: 20%;*/
+  }
+}
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .col-md-1 {
+    /*width: 30%;*/
+  }
+  .board-image {
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+    .col-md-1 {
+        /*width:14%;*/
+    }
+    .team-image {
+      width: 15%;
+      height: auto;
+    }
+}
+
+<<<<<<< Updated upstream
+=======
+.donate-form-div {
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  color: white;
+  height: 75%;
+}
+>>>>>>> Stashed changes
+.input-lg {
+  height: 55px;
+  padding: 14px 16px;
+  font-size: 17px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.blog-img {
+  width:980px;
+  height:1268px; 
+  margin-top:30px;
+}
+
+
+input {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+select.input-lg {
+  height: 55px;
+  line-height: 55px;
+}
+select {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
